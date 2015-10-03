@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Python Algorithms'
-copyright = u'2014, Md. Imrul Hassan'
+copyright = u'2015, Md Imrul Hassan'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -199,7 +199,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'python_algorithms.tex', u'Python Algorithms Documentation',
-   u'Md. Imrul Hassan', 'manual'),
+   u'Md Imrul Hassan', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -229,7 +229,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'python_algorithms', u'Python Algorithms Documentation',
-     [u'Md. Imrul Hassan'], 1)
+     [u'Md Imrul Hassan'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -243,7 +243,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'python_algorithms', u'Python Algorithms Documentation',
-   u'Md. Imrul Hassan', 'python_algorithms', 'One line description of project.',
+   u'Md Imrul Hassan', 'python_algorithms', 'One line description of project.',
    'Miscellaneous'),
 ]
 

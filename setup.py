@@ -19,10 +19,10 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='python_algorithms',
-    version='0.2.1',
+    version='0.2.2',
     description='Python Algorithms contains a collection of useful algorithms written in python.',
     long_description=readme + '\n\n' + history,
-    author='Md. Imrul Hassan',
+    author='Md Imrul Hassan',
     author_email='mihassan@gmail.com',
     url='https://github.com/mihassan/python_algorithms',
     packages=find_packages(),
@@ -42,6 +42,8 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
     ],
     test_suite='tests',
 )
