@@ -1,53 +1,53 @@
-python_algorithms.basic package
+pyalgs.basic package
 ===============================
 
 Submodules
 ----------
 
-python_algorithms.basic.bag module
+pyalgs.basic.bag module
 ----------------------------------
 
-.. automodule:: python_algorithms.basic.bag
+.. automodule:: pyalgs.basic.bag
     :members:
     :undoc-members:
     :show-inheritance:
 
-python_algorithms.basic.binary_search module
+pyalgs.basic.binary_search module
 --------------------------------------------
 
-.. automodule:: python_algorithms.basic.binary_search
+.. automodule:: pyalgs.basic.binary_search
     :members:
     :undoc-members:
     :show-inheritance:
 
-python_algorithms.basic.knuth_shuffle module
+pyalgs.basic.knuth_shuffle module
 --------------------------------------------
 
-.. automodule:: python_algorithms.basic.knuth_shuffle
+.. automodule:: pyalgs.basic.knuth_shuffle
     :members:
     :undoc-members:
     :show-inheritance:
 
-python_algorithms.basic.queue module
+pyalgs.basic.queue module
 ------------------------------------
 
-.. automodule:: python_algorithms.basic.queue
+.. automodule:: pyalgs.basic.queue
     :members:
     :undoc-members:
     :show-inheritance:
 
-python_algorithms.basic.stack module
+pyalgs.basic.stack module
 ------------------------------------
 
-.. automodule:: python_algorithms.basic.stack
+.. automodule:: pyalgs.basic.stack
     :members:
     :undoc-members:
     :show-inheritance:
 
-python_algorithms.basic.union_find module
+pyalgs.basic.union_find module
 -----------------------------------------
 
-.. automodule:: python_algorithms.basic.union_find
+.. automodule:: pyalgs.basic.union_find
     :members:
     :undoc-members:
     :show-inheritance:
@@ -56,7 +56,7 @@ python_algorithms.basic.union_find module
 Module contents
 ---------------
 
-.. automodule:: python_algorithms.basic
+.. automodule:: pyalgs.basic
     :members:
     :undoc-members:
     :show-inheritance:

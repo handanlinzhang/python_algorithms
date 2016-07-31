@@ -1,7 +1,7 @@
-python_algorithms
-=================
+pyalgs
+======
 
 .. toctree::
    :maxdepth: 4
 
-   python_algorithms
+   pyalgs

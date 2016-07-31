@@ -72,7 +72,8 @@ Searching
 =========
 
 Specialized searching algorithms and/or corresponding data structures are included in this package.
-Although some of the following data structures, such as Hash, are implemented in python, they have been implemented for demonstration purpose.
+Although some of the following data structures, such as Hash, are implemented in python,
+they have been implemented for demonstration purpose.
 Unless, specific needs arise, the built-in data structures should be preferred in production code.
 
 * BST

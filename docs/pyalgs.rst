@@ -1,17 +1,17 @@
-python_algorithms package
-=========================
+pyalgs package
+==============
 
 Subpackages
 -----------
 
 .. toctree::
 
-    python_algorithms.basic
+    pyalgs.basic
 
 Module contents
 ---------------
 
-.. automodule:: python_algorithms
+.. automodule:: pyalgs
     :members:
     :undoc-members:
     :show-inheritance:

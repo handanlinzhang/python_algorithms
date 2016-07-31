@@ -9,6 +9,7 @@ python:
   - "3.4"
   - "3.5"
   - "pypy"
+  - "pypy3"
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
@@ -18,7 +19,7 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script:
-  "coverage run --source=python_algorithms setup.py test"
+  "coverage run --source=pyalgs setup.py test"
 
 after_success:
   coveralls

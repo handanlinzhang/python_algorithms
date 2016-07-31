@@ -5,12 +5,12 @@
 test_knuth_shuffle
 ----------------------------------
 
-Tests for `python_algorithms.knuth_shuffle` module.
+Tests for `pyalgs.knuth_shuffle` module.
 """
 
 import unittest
 
-from python_algorithms.basic import knuth_shuffle as ks
+from pyalgs.basic import knuth_shuffle as ks
 
 
 class TestKnuthShuffle(unittest.TestCase):

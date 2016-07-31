@@ -5,12 +5,12 @@
 test_bag
 ----------------------------------
 
-Tests for `python_algorithms.bag` module.
+Tests for `pyalgs.bag` module.
 """
 
 import unittest
 
-from python_algorithms.basic.bag import Bag
+from pyalgs.basic.bag import Bag
 
 
 class TestBag(unittest.TestCase):

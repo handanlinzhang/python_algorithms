@@ -24,7 +24,7 @@ clean-pyc:
 	find . -name '*~' -exec rm -f {} +
 
 lint:
-	flake8 python_algorithms tests
+	flake8 pyalgs tests
 
 test:
 	python setup.py test
@@ -33,15 +33,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source python_algorithms setup.py test
+	coverage run --source pyalgs setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/python_algorithms.rst
+	rm -f docs/pyalgs.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ python_algorithms
+	sphinx-apidoc -o docs/ pyalgs
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html

@@ -24,7 +24,7 @@ API Reference
 .. toctree::
    :maxdepth: 2
 
-   python_algorithms
+   pyalgs
 
 Indices and tables
 ==================

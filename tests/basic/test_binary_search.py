@@ -5,13 +5,13 @@
 test_binary_search
 ----------------------------------
 
-Tests for `python_algorithms.binary_search` module.
+Tests for `pyalgs.binary_search` module.
 """
 
 import random
 import unittest
 
-from python_algorithms.basic import binary_search as bs
+from pyalgs.basic import binary_search as bs
 
 
 class TestBinarySearch(unittest.TestCase):

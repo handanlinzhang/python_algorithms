@@ -5,12 +5,12 @@
 test_queue
 ----------------------------------
 
-Tests for `python_algorithms.queue` module.
+Tests for `pyalgs.queue` module.
 """
 
 import unittest
 
-from python_algorithms.basic.queue import Queue
+from pyalgs.basic.queue import Queue
 
 
 class TestQueue(unittest.TestCase):

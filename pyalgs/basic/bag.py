@@ -13,7 +13,7 @@ stack implementation. In the linked list based implementation, the bag object
 need to keep track of only the head node. Each node contains an item and a link
 to the next node.
 
-..  note:: Python' has a built-in class `collections.Counter
+..  note:: Python has a built-in class `collections.Counter
     <https://docs.python.org/2/library/collections.html#collections.Counter>`_
     which is similar to a bag or multiset. instead of adding an item, 1 need to
     be added with the counter associated with that item and elements return all

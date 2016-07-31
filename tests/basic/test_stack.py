@@ -5,12 +5,12 @@
 test_stack
 ----------------------------------
 
-Tests for `python_algorithms.stack` module.
+Tests for `pyalgs.stack` module.
 """
 
 import unittest
 
-from python_algorithms.basic.stack import Stack
+from pyalgs.basic.stack import Stack
 
 
 class TestStack(unittest.TestCase):

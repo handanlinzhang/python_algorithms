@@ -58,14 +58,15 @@ Get Started!
 Ready to contribute? Here's how to set up `python_algorithms` for local development.
 
 1. Fork the `python_algorithms` repo on GitHub.
+
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/python_algorithms.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv python_algorithms
-    $ cd python_algorithms/
+    $ mkvirtualenv pyalgs
+    $ cd pyalgs/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -84,7 +85,7 @@ Ready to contribute? Here's how to set up `python_algorithms` for local developm
 
 5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
 
-    $ flake8 python_algorithms tests
+    $ flake8 pyalgs tests
     $ python setup.py test
     $ tox
 
@@ -98,6 +99,16 @@ Ready to contribute? Here's how to set up `python_algorithms` for local developm
 
 7. Submit a pull request through the GitHub website.
 
+Update Python Packages
+----------------------
+
+Be mindful of updating packages as it may break some dependencies. Still, from time to time we need to update the packages following these steps::
+
+    1. $ pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+    
+    2. $ pip freeze --local -r requirements.txt > requirements.txt 
+
+
 Pull Request Guidelines
 -----------------------
 
@@ -107,7 +118,7 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.6, 2.7, 3.4, 3.5, and 3.3, and for PyPy.
+3. The pull request should work for Python 2.6, 2.7, 3.3, 3.4, and 3.5, and for PyPy.
    Check https://travis-ci.org/mihassan/python_algorithms/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
@@ -116,4 +127,4 @@ Tips
 
 To run a subset of tests::
 
-	$ python -m unittest tests.test_python_algorithms
+	$ python -m unittest tests.test_pyalgs

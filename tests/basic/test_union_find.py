@@ -5,12 +5,12 @@
 test_union_find
 ----------------------------------
 
-Tests for `python_algorithms.union_find` module.
+Tests for `pyalgs.union_find` module.
 """
 
 import unittest
 
-from python_algorithms.basic.union_find import UF
+from pyalgs.basic.union_find import UF
 
 
 class TestUnionFind(unittest.TestCase):
